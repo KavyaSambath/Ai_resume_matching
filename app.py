@@ -56,7 +56,7 @@ except Exception as e:
 skills_list = [
     'python','machine learning','sql','html','css','javascript','react',
     'java','spring boot','mysql','aws','docker','kubernetes',
-    'deep learning','tensorflow','nlp','PowerBI','Excel','Data Visualization'
+    'deep learning','tensorflow','nlp','power bi','excel','data visualization'
 ]
 
 synonyms = {
@@ -208,5 +208,6 @@ if st.button("Find Matching Jobs"):
             st.write("- Add more details in your resume (experience, tools, keywords).")
             st.write("- Use complete phrases like 'Power BI', 'TensorFlow', 'SQL'.")
             st.write("- Upload a PDF resume for richer text.")
+
 
 
